@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
+    "test:silent": "jest --watchAll --silent --noStackTrace"
   },
   "repository": "https://github.com/lbertoncello/typescript-do-basico-ao-avancado",
   "author": "lbertoncello",
