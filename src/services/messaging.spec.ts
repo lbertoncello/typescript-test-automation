@@ -1,8 +1,8 @@
 import { Messaging } from './messaging';
 
-const createSut = () => {
-    return new Messaging()
-}
+const createSut = (): Messaging => {
+	return new Messaging();
+};
 
 describe('Persistency', () => {
 	afterEach(() => jest.clearAllMocks());
