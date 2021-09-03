@@ -7,7 +7,7 @@ const createSut = (name: string, price: number): Product => {
 describe('Persistency', () => {
 	afterEach(() => jest.clearAllMocks());
 
-	it('should return undefined', () => {
+	it('should have properties name and price', () => {
 		/*
 		 * --- SUT (System Under Test) ---
 		 * Convenção de nomenclatura para a instância da classe que
