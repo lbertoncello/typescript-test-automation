@@ -4,7 +4,7 @@ const createSut = (name: string, price: number): Product => {
 	return new Product(name, price);
 };
 
-describe('Persistency', () => {
+describe('Discount', () => {
 	afterEach(() => jest.clearAllMocks());
 
 	it('should have properties name and price', () => {
