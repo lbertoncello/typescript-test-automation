@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:silent": "jest --watchAll --silent --noStackTrace"
+    "test:silent": "jest --watchAll --silent --noStackTrace",
+    "test:coverage": "jest --coverage --silent --noStackTrace"
   },
   "repository": "https://github.com/lbertoncello/typescript-do-basico-ao-avancado",
   "author": "lbertoncello",
